@@ -1,6 +1,7 @@
 # Women's E-Commerce Clothing Reviews & Sentiment Prediction
 
-This is my first project on NLP. The dataset is reviews written by customers about the product they purchased.
+This is my first project on NLP. The dataset is reviews written by customers about the product they purchased. In this project I'm trying predict the sentiments of the review text written by customers. 
+
 We have a review dataset of 23486 rows and 10 columns of data. The feature variables are:  
 * **Clothing ID**: Integer Categorical variable that refers to the specific piece being reviewed. 
 * **Age**: Positive Integer variable of the reviewers age.
@@ -12,3 +13,7 @@ We have a review dataset of 23486 rows and 10 columns of data. The feature varia
 * **Division Name**: Categorical name of the product high level division.
 * **Department Name**: Categorical name of the product department name.
 * **Class Name**: Categorical name of the product class name.
+
+These dataset does not include labels showing the sentiments of the reviews. I have created a new feature **sentiment** analysing the given data based on a certain condition, and used the same as the target variable.
+
+**Data Source and description: [Kaggle](https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews)**
