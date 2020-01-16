@@ -1,5 +1,6 @@
 # Women's E-Commerce Clothing Reviews & Sentiment Prediction
 
+This is my first project on NLP. The dataset is reviews written by customers about the product they purchased.
 We have a review dataset of 23486 rows and 10 columns of data. The feature variables are:  
 * **Clothing ID**: Integer Categorical variable that refers to the specific piece being reviewed. 
 * **Age**: Positive Integer variable of the reviewers age.
